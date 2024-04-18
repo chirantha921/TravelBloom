@@ -1,0 +1,191 @@
+body {
+    
+    background-image: url(travel.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+            line-height: 1.2;
+            background-color: #f4f4f4;
+            color:black;
+            
+  }
+  
+  /* Navigation Bar */
+  
+  #home {
+    background-color: black;
+    padding-bottom: 1cm;
+    margin-left:-1cm;
+    margin-right:-1cm;
+    margin-top:-0.5cm;
+    padding-top: 0.5cm;
+    padding-bottom: 1.5cm;
+    height: 3mm;
+   }
+
+
+   .profile_name {
+    font-size: larger;
+    color: white;
+    float: left;
+    padding-left: 1cm;
+    padding-top:0.5cm;
+    /* Add the styles here */
+  }
+
+  .travel_im img {
+    float: left;
+    width: 55px;
+    height: 55px;
+    padding-top:-1cm;
+}
+  
+.topdiv {
+    padding-top: 0.5cm;
+    display: flex;
+    justify-content: center;
+}
+
+.topmenu {
+    font-weight: bold;
+    color: whitesmoke;
+    margin: 0 12px; /* Adjust margin as needed */
+    font-family: 'Roboto', sans-serif; 
+    text-decoration: none;
+}
+
+.topmenu:hover {
+    color:wheat; /* Change the color to your desired hover color */
+    /* Add any other styling you want for the hover effect */
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Style for search container */
+.search-container {
+  margin: 0 auto; /* Center horizontally */
+}
+
+/* Style for search bar */
+.search-bar {
+  float: right;
+  margin-top: -0.3cm;
+  margin-right: 1.5cm;
+  
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 400px;
+  height: 30px;
+}
+
+/* Styling for search button (optional) */
+.search-button {
+  padding: 8px 15px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.introduction{
+  display: flex;
+  align-items: center;
+}
+
+#introduction h1 {
+  
+  font-size: 80px;
+  margin-left: 40px;
+  margin-top: 90px;
+  color:white;
+}
+
+#introduction p {
+  float: right;
+  font-weight: bold;
+  font-size: 30px;
+  color:black;
+  margin-top: -1cm;
+  margin-left: 1cm;
+}
+
+.social-media-buttons {
+  margin-top: 80px;
+  float: left; /* Float the social media buttons to the left */
+  margin-right: 20px; /* Add some space between the buttons and the paragraph */
+}
+
+.social-media-buttons a {
+  display: block; /* Display each button on a new line */
+  margin-bottom: 10px; /* Add some space between each button */
+}
+
+.social-media-buttons img {
+  width: 40px; /* Adjust the size of the icons as needed */
+  height: 40px;
+  border-radius: 50%; /* Make the icons circular */
+  transition: transform 0.3s ease; /* Add a smooth transition effect */
+}
+
+.social-media-buttons img:hover {
+  transform: scale(1.2); /* Enlarge the icon on hover */
+}
+
+
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+.container h1 {
+  text-align: center;
+  font-size: 70px;
+  color: white;
+}
+
+.container p {
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+
+.book-now-btn {
+  background-color: #dfdfdf; /* Green background */
+  border: none; /* No border */
+  color: rgb(0, 0, 0); /* White text */
+  padding: 15px 32px; /* Padding */
+  text-align: center; /* Center-align text */
+  text-decoration: none; /* No underlining */
+  display: inline-block; /* Display as inline block */
+  font-size: 16px; /* Font size */
+  margin-left: 1.5cm; /* Margin */
+  transition-duration: 0.4s; /* Transition duration */
+  cursor: pointer; /* Cursor style */
+  border-radius: 10px; /* Rounded corners */
+}
+
+/* Hover effect for the "Book Now" button */
+.book-now-btn:hover {
+  background-color: #020202; /* Darker green background on hover */
+  color: white; /* White text on hover */
+}
+
+
+
+
+input[type="submit"]:hover {
+background-color: #c2c2c2;
+}
