@@ -86,15 +86,64 @@ body {
 }
 
 /* Styling for search button (optional) */
-.search-button {
-  padding: 8px 15px;
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  margin-left: 5px;
+
+.search-bar-container {
+  position: relative;
+  display: inline-block;
 }
+
+.search-bar {
+  padding-right: 40px; /* Adjust as needed */
+}
+
+.search-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-right: 150px;
+  margin-top:-5px;
+  height: 100%;
+  padding: 6px 10px; /* Adjust as needed */
+  border: none;
+  background-color: #ccc; /* Button color */
+  color: #333; /* Button text color */
+  cursor: pointer;
+
+
+}
+
+.search-btn,
+        .clear-btn {
+            position: absolute;
+            
+            top: 0;
+            height: 100%;
+            padding: 6px 10px; /* Adjust padding as needed */
+            border: none;
+            cursor: pointer;
+        }
+
+        .clear-btn {
+          margin-right: 80px;
+          margin-top: -5px;
+          right: 0;
+          background-color: #f44336; /* Button color */
+          color: #fff; /* Button text color */
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .introduction{
   display: flex;
@@ -188,4 +237,15 @@ body {
 
 input[type="submit"]:hover {
 background-color: #c2c2c2;
+}
+
+#recommended-places {
+  margin-right: 210px;
+  margin-top: 5px;
+  float: right;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 450px;
+ 
 }

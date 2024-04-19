@@ -10,7 +10,7 @@
 
     <body>
 
-        <script defer src="travel_recommendation.js"></script>
+        
         
         <nav>
 
@@ -26,12 +26,18 @@
                 </div>
 
                 <div class="topdiv">
-                    <a class="topmenu" href="#about-me">HOME</a>
-                    <a class="topmenu" href="#about-me">ABOUT US</a>
-                    <a class="topmenu" href="#about-me">CONTACT US</a>
+                    <a class="topmenu" href="travel_recommendation.html">HOME</a>
+                    <a class="topmenu" href="About.html">ABOUT US</a>
+                    <a class="topmenu" href="Contactus.html">CONTACT US</a>
                    
+                    <!-- Your HTML code -->
+                      <div class="search-bar-container">
                     <input type="text" class="search-bar" placeholder="Search...">
-          
+                     <!-- Search button inside the text field -->
+                     <button class="search-btn">Search</button>
+                     <button class="clear-btn" >Clear</button>
+                    </div>
+    
                   </div>
 
                  
@@ -44,6 +50,13 @@
 
 
         </nav>
+        <div id="recommended-places"></div>
+
+
+
+
+
+
                 <!--Introduction to webpage-->
         <div>
 
@@ -59,10 +72,13 @@
                     <div class="clearfix"></div> <!-- Clearfix to prevent paragraph from wrapping around floated elements -->
             
                     <h1>Explore<br> Dream Destinations</h1>
-                    <p>Welcome to our travel haven, where wanderlust meets exploration! Embark on a journey with us as we uncover the world's hidden gems, delve into vibrant cultures, and embrace unforgettable experiences.</p>
+                   
+
+                    
                 </div>
 
                 <button class="book-now-btn">Book Now</button>
+                
                 
 
 
@@ -77,7 +93,7 @@
 
         </div>
 
-
+        <script defer src="travel_recommendation.js"></script>
 
 
     </body>
